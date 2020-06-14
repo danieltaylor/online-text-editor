@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Editor</title>
+	<link href='./style.css' rel='stylesheet'>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:700,300,100,100italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<script src='./script.js'></script>
+	<div align=center>
+		<h1>Online Text Editor</h1>
+		<div align=left style='display:inline-block; font-size: 20px'>
+			File to Modify:<br>
+			<input id='fileInput' type='file' onchange='loadFile()'/><br>
+			<br>
+			File Name:<br>
+			<input type='text' id='fileName' onchange='updateFileName()'><br>
+			<br>
+			File Contents:<br>
+			<textarea id='editor' rows=15 cols=80></textarea><br>
+			<br>
+			<input type='button' onclick='downloadNewFile()' value="Download Updated File">
+		</div>
+	</div>
+</body>
+</html>

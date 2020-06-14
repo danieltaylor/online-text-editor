@@ -1,0 +1,19 @@
+h1 {
+	font-family:"Josefin Slab";
+	font-weight:300;
+	font-size: 50px;
+}
+
+h2 {
+	font-family:"Josefin Slab";
+	font-weight:300;
+	font-size: 30px;
+}
+
+body {
+	font-family: "Roboto";
+	font-weight: 300;
+	text-align: left;
+	background-color: rgb(30,30,50);
+	color: white;
+}
